@@ -1,6 +1,6 @@
 #copied from @MAUFORONDA
 
-name: Update data
+name: Update data JN
 on:
   schedule:
     - cron: '*/1 * * * *'
