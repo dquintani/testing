@@ -23,7 +23,7 @@ jobs:
           pip install -r requirements.txt
       - name: run script
         run: |
-          echo ::set-output name=results::$(python testing.ipynb)
+          echo ::set-output name=results::$(python testing/testing.ipynb)
         id: run_script
       - name: what changed
         env:
