@@ -1,6 +1,6 @@
 #copied from @MAUFORONDA
 
-name: Update data
+name: Update data PY
 on:
   schedule:
     - cron: '*/1 * * * *'
