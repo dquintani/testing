@@ -5,3 +5,14 @@ pytz==2019.3
 requests==2.23.0
 urllib3==1.25.8
 matplotlib==3.3.1
+
+pandas as pd
+numpy as np
+requests
+io
+
+matplotlib.dates as dates
+
+csv
+
+unicodedata
