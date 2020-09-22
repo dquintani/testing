@@ -40,7 +40,7 @@ confirmados.head()
 
 
 # In[4]:
-
+print('43')
 
 #change to datetime - confirmados
 confirmados['Fecha'] = pd.to_datetime(confirmados['Fecha'])
@@ -70,6 +70,7 @@ confirmados.head()
 
 
 # In[8]:
+print('73')
 
 
 confirmados = confirmados.rename(columns = {'potosí':'potosi'})
