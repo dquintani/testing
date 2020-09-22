@@ -237,6 +237,7 @@ tot_tests
 
 # In[26]:
 
+os.remove("./tot_tests.csv")
 
 tot_tests.to_csv("./tot_tests.csv", sep=',',index=True)
 
