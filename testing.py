@@ -100,6 +100,7 @@ plt.show()
 # # DESCARTADOS (@edu_arraya, pr0nstar)
 
 # In[10]:
+print('103')
 
 
 #RAW
@@ -139,6 +140,7 @@ testing = testing.iloc[1:]
 
 testing.head()
 
+print('143')
 
 # In[14]:
 
@@ -168,6 +170,7 @@ testing.head()
 # #delete sospechosos columns method 2
 # testing.Sospechosos.drop(testing.Sospechosos, axis=1)
 # testing.Sospechosos.head()
+print('173')
 
 
 # In[17]:
@@ -217,6 +220,7 @@ plt.legend()
 # df.to_csv('file2.csv', index=False, header=False,)
 # df
 
+print('223')
 
 # In[24]:
 
@@ -226,6 +230,7 @@ tot_tests = (confirmados + testing.Descartados)
 
 # In[25]:
 
+print('233')
 
 tot_tests
 
@@ -240,4 +245,6 @@ tot_tests.to_csv("./tot_tests.csv", sep=',',index=True)
 
 
 #np.savetxt("tot_tests.csv", tot_tests, delimiter=",", fmt='%s')
+
+print('finished!')
 
