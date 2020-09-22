@@ -18,11 +18,14 @@ import numpy as np
 import requests
 import io
 
+
 import matplotlib.dates as dates
 
 import csv
 
 import unicodedata
+
+import os 
 
 print('imports successfull')
 
